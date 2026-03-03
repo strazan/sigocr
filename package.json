@@ -32,7 +32,8 @@
     "bench": "pnpm fixtures && vitest bench",
     "type-check": "tsc --noEmit",
     "lint": "biome check .",
-    "lint:fix": "biome check --write ."
+    "lint:fix": "biome check --write .",
+    "release": "sh -c 'npm version $0 --no-git-tag-version && npx napi version && git add -A && git commit -m \"v$0\" && git tag \"v$0\" && git push origin main \"v$0\"'"
   },
   "napi": {
     "binaryName": "sigocr",
