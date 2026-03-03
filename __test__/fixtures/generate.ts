@@ -5,9 +5,10 @@
  */
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
 import { PDFDocument, rgb, StandardFonts } from "pdf-lib";
 
-const FIXTURES_DIR = dirname(new URL(import.meta.url).pathname);
+const FIXTURES_DIR = dirname(fileURLToPath(import.meta.url));
 
 async function generateDigitalPdf(pages: number, filename: string) {
   const doc = await PDFDocument.create();
