@@ -1,0 +1,22 @@
+{
+  "name": "sigocr-linux-arm64-musl",
+  "version": "0.1.0",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "arm64"
+  ],
+  "libc": [
+    "musl"
+  ],
+  "main": "sigocr.linux-arm64-musl.node",
+  "files": [
+    "sigocr.linux-arm64-musl.node"
+  ],
+  "description": "sigocr native binding for linux-arm64-musl",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "sigocr-linux-arm64-gnu",
+  "version": "0.1.0",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "arm64"
+  ],
+  "libc": [
+    "glibc"
+  ],
+  "main": "sigocr.linux-arm64-gnu.node",
+  "files": [
+    "sigocr.linux-arm64-gnu.node"
+  ],
+  "description": "sigocr native binding for linux-arm64-gnu",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}

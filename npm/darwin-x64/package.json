@@ -1,0 +1,19 @@
+{
+  "name": "sigocr-darwin-x64",
+  "version": "0.1.0",
+  "os": [
+    "darwin"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "main": "sigocr.darwin-x64.node",
+  "files": [
+    "sigocr.darwin-x64.node"
+  ],
+  "description": "sigocr native binding for darwin-x64",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}

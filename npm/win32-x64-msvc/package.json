@@ -1,0 +1,19 @@
+{
+  "name": "sigocr-win32-x64-msvc",
+  "version": "0.1.0",
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "main": "sigocr.win32-x64-msvc.node",
+  "files": [
+    "sigocr.win32-x64-msvc.node"
+  ],
+  "description": "sigocr native binding for win32-x64-msvc",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
