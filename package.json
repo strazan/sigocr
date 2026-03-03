@@ -1,7 +1,29 @@
 {
   "name": "sigocr",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "description": "Fast PDF text extraction with paragraph layout and bounding regions.",
+  "keywords": [
+    "pdf",
+    "text-extraction",
+    "ocr",
+    "paragraphs",
+    "bounding-regions",
+    "layout",
+    "native",
+    "napi"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strazan/sigocr.git"
+  },
+  "author": "Sigge",
+  "license": "MIT",
+  "packageManager": "pnpm@10.17.1",
   "type": "module",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -61,5 +83,10 @@
     "typescript": "^5.9.3",
     "unpdf": "^1.4.0",
     "vitest": "^4.0.18"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
   }
 }
